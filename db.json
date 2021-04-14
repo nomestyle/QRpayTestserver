@@ -29,6 +29,15 @@
 			"updated_at": "2021-04-14T00:00:00"
 		}
 	],
+	"transactions": [{
+    		"id": 0,
+		"userId": 1234,
+		"businessId": 4321,
+		"amount": 20,
+    		"status": "complete",
+    		"created_at": "2021-04-14T00:00:00",
+		"updated_at": "2021-04-14T00:00:00"
+	}],
 	"payments": [{
 		"userId": 1234,
 		"businessId": 4321,
