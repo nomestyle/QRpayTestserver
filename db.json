@@ -1,37 +1,37 @@
 {
-  "users": [
-    {
-      "id": 0,
-      "first_name": "User",
-      "last_name": "Testcase",
-      "email": "test@email.com",
-      "password": "pass1234",
-      "phone": 64220000000,
-      "created_at": "2021-04-14T00:00:00",
-      "updated_at": "2021-04-14T00:00:00",
-      "last_login": "2021-04-14T00:00:00"
-    }
-  ],
-    "businesses": [
-    {
-      "id": 0,
-      "name": "Test",
-      "email": "test2@email.com",
-      "password": "pass1234",
-      "phone": 64220000009,
-      "created_at": "2021-04-14T00:00:00",
-      "updated_at": "2021-04-14T00:00:00",
-    },
-    {
-      "id": 999,
-      "name": "Buzinezz",
-      "email": "test3@Buzinezz.com",
-      "password": "pass1234",
-      "phone": 64220000001,
-      "created_at": "2021-04-14T00:00:00",
-      "updated_at": "2021-04-14T00:00:00",
-    }
-  ],
-    "payments": [
-  ],
+	"users": [{
+		"id": 0,
+		"first_name": "User",
+		"last_name": "Testcase",
+		"email": "test@email.com",
+		"password": "pass1234",
+		"phone": 64220000000,
+		"created_at": "2021-04-14T00:00:00",
+		"updated_at": "2021-04-14T00:00:00",
+		"last_login": "2021-04-14T00:00:00"
+	}],
+	"businesses": [{
+			"id": 0,
+			"name": "Test",
+			"email": "test2@email.com",
+			"password": "pass1234",
+			"phone": 64220000009,
+			"created_at": "2021-04-14T00:00:00",
+			"updated_at": "2021-04-14T00:00:00"
+		},
+		{
+			"id": 999,
+			"name": "Buzinezz",
+			"email": "test3@Buzinezz.com",
+			"password": "pass1234",
+			"phone": 64220000001,
+			"created_at": "2021-04-14T00:00:00",
+			"updated_at": "2021-04-14T00:00:00"
+		}
+	],
+	"payments": [{
+		"userId": 1234,
+		"businessId": 4321,
+		"amount": 20
+	}]
 }
